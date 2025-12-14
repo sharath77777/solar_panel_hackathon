@@ -1,0 +1,596 @@
+[
+    {
+        "sample_id": 1001,
+        "lat": 19.20611111111111,
+        "lon": 72.87333333333332,
+        "has_solar": true,
+        "confidence": 0.85,
+        "pv_area_sqm_est": 113.11,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panel found in 1200 sqft buffer"
+        ],
+        "bbox_or_mask": "[[np.float64(169.75588989257812), np.float64(198.69862365722656), np.float64(338.6795349121094), np.float64(229.32440185546875)]]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1002,
+        "lat": 19.2025,
+        "lon": 72.86833333333333,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panels detected but outside buffer"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1003,
+        "lat": 19.20444444444444,
+        "lon": 72.845,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "no panels detected"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1004,
+        "lat": 19.19277777777778,
+        "lon": 72.8325,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panels detected but outside buffer"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1005,
+        "lat": 18.95416666666667,
+        "lon": 72.79888888888888,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panels detected but outside buffer"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1006,
+        "lat": 18.94833333333333,
+        "lon": 72.79638888888888,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panels detected but outside buffer"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1007,
+        "lat": 12.94083333333333,
+        "lon": 77.57333333333332,
+        "has_solar": true,
+        "confidence": 0.85,
+        "pv_area_sqm_est": 109.7,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panel found in 1200 sqft buffer"
+        ],
+        "bbox_or_mask": "[[np.float64(189.72164916992188), np.float64(251.4714813232422), np.float64(268.9382019042969), np.float64(310.93804931640625)]]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1008,
+        "lat": 12.9375,
+        "lon": 77.565,
+        "has_solar": true,
+        "confidence": 0.85,
+        "pv_area_sqm_est": 23.62,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panel found in 1200 sqft buffer"
+        ],
+        "bbox_or_mask": "[[np.float64(289.2610778808594), np.float64(274.49169921875), np.float64(318.8429260253906), np.float64(308.783203125)]]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1009,
+        "lat": 12.9375,
+        "lon": 77.62277777777777,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panels detected but outside buffer"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1010,
+        "lat": 12.91222222222222,
+        "lon": 77.64333333333335,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panels detected but outside buffer"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1011,
+        "lat": 13.0125,
+        "lon": 77.56666666666666,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "no panels detected"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1012,
+        "lat": 13.00722222222222,
+        "lon": 77.55611111111111,
+        "has_solar": true,
+        "confidence": 0.85,
+        "pv_area_sqm_est": 7.99,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panel found in 1200 sqft buffer"
+        ],
+        "bbox_or_mask": "[[np.float64(284.513916015625), np.float64(333.34044647216797), np.float64(313.47698974609375), np.float64(345.20006561279297)]]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1013,
+        "lat": 13.00722222222222,
+        "lon": 77.56222222222222,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panels detected but outside buffer"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1014,
+        "lat": 17.42666666666667,
+        "lon": 78.45055555555555,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panels detected but outside buffer"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1015,
+        "lat": 17.42388888888889,
+        "lon": 78.45,
+        "has_solar": true,
+        "confidence": 0.85,
+        "pv_area_sqm_est": 54.55,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panel found in 1200 sqft buffer"
+        ],
+        "bbox_or_mask": "[[np.float64(316.2537536621094), np.float64(231.163330078125), np.float64(366.1228942871094), np.float64(280.17364501953125)]]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1016,
+        "lat": 17.42166666666667,
+        "lon": 78.44444444444444,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panels detected but outside buffer"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1017,
+        "lat": 17.41944444444444,
+        "lon": 78.43944444444445,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panels detected but outside buffer"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1018,
+        "lat": 17.41888888888889,
+        "lon": 78.44666666666667,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "no panels detected"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1019,
+        "lat": 17.44527777777778,
+        "lon": 78.34027777777777,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panels detected but outside buffer"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1020,
+        "lat": 17.46388888888889,
+        "lon": 78.34805555555555,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panels detected but outside buffer"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1021,
+        "lat": 28.64833333333333,
+        "lon": 77.19388888888889,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panels detected but outside buffer"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1022,
+        "lat": 28.65111111111111,
+        "lon": 77.18027777777779,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panels detected but outside buffer"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1023,
+        "lat": 28.65194444444444,
+        "lon": 77.19583333333334,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panels detected but outside buffer"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1024,
+        "lat": 28.66055555555555,
+        "lon": 77.20722222222223,
+        "has_solar": true,
+        "confidence": 0.85,
+        "pv_area_sqm_est": 13.45,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panel found in 2400 sqft buffer"
+        ],
+        "bbox_or_mask": "[[285.5482940673828, 357.7783508300781, 310.3098449707031, 386.54931640625]]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1025,
+        "lat": 28.62777777777778,
+        "lon": 77.21944444444445,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "no panels detected"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1026,
+        "lat": 28.62527777777778,
+        "lon": 77.21805555555555,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panels detected but outside buffer"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1027,
+        "lat": 28.62611111111111,
+        "lon": 77.21861111111112,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panels detected but outside buffer"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1028,
+        "lat": 28.61277777777778,
+        "lon": 77.38861111111112,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "no panels detected"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1029,
+        "lat": 9.953055555555554,
+        "lon": 76.25361111111111,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panels detected but outside buffer"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1030,
+        "lat": 9.953055555555554,
+        "lon": 76.25277777777778,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panels detected but outside buffer"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1031,
+        "lat": 9.953333333333333,
+        "lon": 76.24888888888889,
+        "has_solar": true,
+        "confidence": 0.85,
+        "pv_area_sqm_est": 66.72,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panel found in 1200 sqft buffer"
+        ],
+        "bbox_or_mask": "[[np.float64(234.00180053710938), np.float64(313.3770332336426), np.float64(298.9111633300781), np.float64(356.5963439941406)]]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1032,
+        "lat": 9.955,
+        "lon": 76.24555555555555,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panels detected but outside buffer"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    },
+    {
+        "sample_id": 1033,
+        "lat": 9.959722222222222,
+        "lon": 76.24194444444444,
+        "has_solar": false,
+        "confidence": 0.0,
+        "pv_area_sqm_est": 0.0,
+        "qc_status": "VERIFIABLE",
+        "qc_notes": [
+            "image fetched",
+            "SAHI: panels detected but outside buffer"
+        ],
+        "bbox_or_mask": "[]",
+        "image_metadata": {
+            "source": "Google Maps",
+            "capture_date": "2025-12-02"
+        }
+    }
+]
