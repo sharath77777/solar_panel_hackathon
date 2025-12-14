@@ -10,12 +10,10 @@ from datetime import datetime
 from sahi import AutoDetectionModel
 from sahi.predict import get_sliced_prediction
 
-# --- CONFIGURATION ---
-# 1. Google Maps API Key
-API_KEY = "AIzaSyCw0gNlOYXP0zW3iQ9D8vci_3VZOJksTG0" # <--- PASTE YOUR REAL KEY HERE
 
-# 2. Your BEST Trained Model (The 80% one)
-# Make sure this path is correct on your computer!
+# 1. Google Maps API Key
+API_KEY = "AIzaSyCw0gNlOYXP0zW3iQ9D8vci_3VZOJksTG0" #
+
 MODEL_PATH = "Trained model file/best.pt"
 
 # 3. Settings
@@ -30,7 +28,7 @@ detection_model = AutoDetectionModel.from_pretrained(
     model_type='yolo11',
     model_path=MODEL_PATH,
     confidence_threshold=0.15,
-    device='cpu' # Change to 'cuda' if you have NVIDIA GPU setup
+    device='cpu' 
 )
 
 # --- PART 2: THE MATH (Area & GSD) ---
@@ -50,9 +48,6 @@ def calculate_smart_area(box, lat):
     x1, y1, x2, y2 = map(int, box)
     
     # 2. Calculate Ground Sample Distance (Resolution)
-    # Note: We use the GSD of the original image, regardless of upscaling
-    # If using super-resolution, ensure GSD matches the pixel scale.
-    # Assuming 'get_gsd' calculates meters per pixel correctly for the image size.
     gsd = get_gsd(lat, zoom=20) 
     
     # 3. Calculate Raw Box Area in Meters
@@ -62,10 +57,7 @@ def calculate_smart_area(box, lat):
     
     # 4. Apply The "Safety Factors"
     # Factor A: Slope Correction (Panels are tilted 20-30 degrees)
-    slope_factor = 1.10
-    
-    # Factor B: Fill Factor (Panels are rotated, so box has EMPTY corners)
-    # We statistically assume ~15% of the box is empty roof space.
+    slope_factor = 1.10    
     fill_factor = 0.85 
     
     final_area = raw_box_area * slope_factor * fill_factor
@@ -77,12 +69,12 @@ def is_valid_solar_shape(box):
     width = x2 - x1
     height = y2 - y1
     
-    # RELAXATION 1: Allow smaller boxes (was 10)
+    # RELAXATION 1: Allow smaller boxes
     # SAHI slices images, so boxes can be tiny
     if width < 8 or height < 8:
         return False
 
-    # RELAXATION 2: Allow skinnier shapes (was 4.0 / 0.25)
+    # RELAXATION 2: Allow skinnier shapes
     # Some arrays are long strips
     ratio = width / height
     if ratio > 6.0 or ratio < 0.15:
@@ -173,9 +165,9 @@ def super_resolve_image(image_path):
         
         # Setup Super Res
         sr = dnn_superres.DnnSuperResImpl_create()
-        path_to_model = "EDSR_x4.pb" # Make sure this file exists!
+        path_to_model = "EDSR_x4.pb" 
         sr.readModel(path_to_model)
-        sr.setModel("edsr", 4) # Upscale 4x
+        sr.setModel("edsr", 4) 
         
         # Run Magic
         result = sr.upsample(img)
@@ -229,7 +221,6 @@ def process_location_with_sahi(lat, lon, sample_id):
         has_solar = True
         total_area = calculate_smart_area(best_box, lat)
         
-        # Force high confidence if it passed all our filters
         confidence = 0.85 
         qc_notes.append(f"SAHI: panel found in {buffer_used} sqft buffer")
         bbox_list.append(best_box)
@@ -246,12 +237,12 @@ def process_location_with_sahi(lat, lon, sample_id):
         "has_solar": has_solar,
         "confidence": confidence,
         "pv_area_sqm_est": round(total_area, 2),
-        "panel_count": len(all_boxes),          # Added upgrade
-        "buffer_radius_sqft": buffer_used,      # <--- REQUIRED BY PDF [cite: 133]
-        "qc_status": "VERIFIABLE",              # <--- REQUIRED BY PDF [cite: 134]
+        "panel_count": len(all_boxes),          
+        "buffer_radius_sqft": buffer_used,      
+        "qc_status": "VERIFIABLE",             
         "qc_notes": qc_notes,
-        "bbox_or_mask": str(bbox_list),         # <--- REQUIRED BY PDF [cite: 135]
-        "image_metadata": {"source": "Google Static Maps", "capture_date": "2025-12-12"} # [cite: 136]
+        "bbox_or_mask": str(bbox_list),       
+        "image_metadata": {"source": "Google Static Maps", "capture_date": "2025-12-12"} 
     }
 
 # --- MAIN EXECUTION ---
