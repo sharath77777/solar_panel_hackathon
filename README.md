@@ -13,6 +13,12 @@ SolarWatch is an automated pipeline designed to audit rooftop solar installation
 * **Logic:** Geometric Filtering & Statistical Area Correction (Fill Factor 0.85)
 * **Deployment:** Dockerized Python Container
 
+## 🐳 Docker Deployment (Pre-Built)
+To save time building, you can pull our pre-built image directly from Docker Hub:
+```bash
+docker pull sharathc2006/solar-watch:v1
+```
+
 ## 🚀 How to Run (Docker)
 1.  **Build the Image:**
     ```bash
