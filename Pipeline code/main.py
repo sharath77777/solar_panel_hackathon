@@ -12,7 +12,11 @@ from sahi.predict import get_sliced_prediction
 
 
 # 1. Google Maps API Key
-API_KEY = "AIzaSyCw0gNlOYXP0zW3iQ9D8vci_3VZOJksTG0" #
+# ---------------------------------------------------------
+# SECURITY NOTE: API Key removed for public safety.
+# Please insert a valid Google Maps Static API Key below to run fetching.
+# ---------------------------------------------------------
+API_KEY = "ENTER_YOUR_API_KEY_HERE"
 
 MODEL_PATH = "Trained model file/best.pt"
 
