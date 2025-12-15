@@ -13,6 +13,11 @@ SolarWatch is an automated pipeline designed to audit rooftop solar installation
 * **Logic:** Geometric Filtering & Statistical Area Correction (Fill Factor 0.85)
 * **Deployment:** Dockerized Python Container
 
+### 🔑 Security Note regarding API Key
+For security reasons, the Google Maps API Key has been removed from the public code.
+* **To run the full pipeline:** Please insert your own valid API key in `main.py` (Line 20).
+* **To view results:** We have included the full output in `submission_results.json` so you can verify performance without needing to fetch new data.
+
 ## 🐳 Docker Hub Image
 **We have pre-built and pushed the Docker image for easy evaluation.**
 **Link:** [https://hub.docker.com/r/sharathc2006/solar-watch](https://hub.docker.com/r/sharathc2006/solar-watch)
